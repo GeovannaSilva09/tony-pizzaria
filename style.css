@@ -15,7 +15,8 @@ ul,ol,li{
 
 body{
     padding: 0 80px;
-    
+    font-family: "Poppins", sans-serif;
+          
 }
 
 header{
@@ -24,7 +25,26 @@ header{
     position: fixed;
     top: 60px;
     background-color: steelblue;
+    display: flex;
+    justify-content: space-between;
 }
+
+header menu{
+    align-items: center;
+    display: flex;
+    gap: 48px;
+    background-color: chocolate;
+    
+}
+
+header li{
+    padding: 4px 8px;
+    transition: .5s;
+}
+
+header li:hover{
+     background-color: #fbddc1;
+    box-shadow:  0 4px 6px #000;
 
 main{
     height: 700px;
